@@ -1,0 +1,13 @@
+<input [(ngModel)]="nameFilter" type="text"placeholder="Busca de tarefas" maxlength="100">
+
+<ul class="card-board">
+<li class="card" *ngFor="let i of my_info">
+    <div class="card-content">
+        <h3>{{i.tarefa}}</h3>
+        <p>{{i.data}}</p>
+        <p>{{i.tipo}}</p>
+    </div>
+    
+    <button id="card-button" (click)="callClick(i)">Finalizar</button>
+</li>
+</ul>
