@@ -1,0 +1,6 @@
+<h1>Quantidade de produtos no carrinho: {{qtdProdutosCarrinho}}</h1>
+<div class="cardBoard">
+    <app-produtos class="card" (myClick)="handleClick($event)" *ngFor="let i of listaProdutos" [produto]='i'>
+        
+    </app-produtos>
+</div>
