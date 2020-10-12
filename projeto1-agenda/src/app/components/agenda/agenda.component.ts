@@ -45,6 +45,9 @@ export class AgendaComponent implements OnInit {
   }
 
   handleClick(event) {
+    var obj_index: any;
+    obj_index = this.info.indexOf(event)
+    this.info[obj_index].concluida = !event.concluida
     alert(event.id);
   }
 }
