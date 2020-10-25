@@ -1,0 +1,49 @@
+nav{
+    height: 10vh;
+    background-color: rgb(123, 185, 121);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo{
+    padding-left: 50px;
+    font-family: "Mountains of Christmas", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.the{
+    font-size: 10px;
+    color: rgb(73, 73, 73);
+}
+
+.entrar{
+    margin-right: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    color: rgb(123, 185, 121);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.entrar:hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.iconify{
+    content: url('https://api.iconify.design/mdi-palm-tree.svg?color=white&height=24');
+color: url('https://api.iconify.design/mdi-palm-tree.svg?color=white') no-repeat center center / contain;
+vertical-align: -0.125em;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+}

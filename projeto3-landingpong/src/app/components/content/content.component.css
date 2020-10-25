@@ -1,0 +1,22 @@
+.container{
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.content-item{
+    background-color: rgb(236, 250, 237);
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.content-item:hover{
+    box-shadow: 2px 5px #a4a5a4;
+    background-color: rgb(210, 245, 213);
+}

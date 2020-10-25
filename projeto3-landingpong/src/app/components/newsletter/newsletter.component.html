@@ -1,0 +1,18 @@
+<div class="newsletter-box">
+    <h3>Receba todas nossas atualizações!</h3>
+    <label>Nome:</label>
+    <input id='name' name='name' [(ngModel)]='name' (focusout)="focusOutFunction($event)" minlength="4">
+    <!-- <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert alert-danger"> -->
+    
+        <!-- <div *ngIf="name.errors.required">
+            Name is required.
+        </div>
+        <div *ngIf="name.errors.minlength">
+            Name must be at least 4 characters long.
+        </div> -->
+
+    <!-- </div> -->
+    <label>Email:</label>
+    <input [(ngModel)]='email'>
+    <button (click)="signNewsletter()">Me Inscrever!</button>
+</div>

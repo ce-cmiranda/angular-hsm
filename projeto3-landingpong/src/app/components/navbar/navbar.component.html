@@ -1,0 +1,38 @@
+<nav>
+    <div class='logo'><span class="iconify" data-icon="mdi-palm-tree" data-inline="false"></span>Save <span class="the">the</span> PalmTrees</div>
+    <div class="entrar" data-toggle="modal" data-target="#exampleModal">Entrar</div>
+</nav>
+
+<!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Entre agora :)</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <label>Nome:</label>
+            <input id='name' name='name' [(ngModel)]='name' (focusout)="focusOutFunction($event)" minlength="4">
+        
+            <label>Email:</label>
+            <input [(ngModel)]='email'>
+
+            <label>CPF:</label>
+            <input [(ngModel)]='cpf'>
+
+            <label>Telefone:</label>
+            <input [(ngModel)]='telefone'>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
