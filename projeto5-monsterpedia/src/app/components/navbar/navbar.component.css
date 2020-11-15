@@ -1,0 +1,17 @@
+nav{
+    height: 10vh;
+    background-color: rgb(123, 185, 121);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
